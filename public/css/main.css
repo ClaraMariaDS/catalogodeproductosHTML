@@ -122,6 +122,9 @@ section {
   font-size: xx-large;
   text-decoration: underline rgba(150, 225, 150);
 }
+.mySlides {
+  display: none;
+}
 .descrip {
   text-align: center;
   color: black;

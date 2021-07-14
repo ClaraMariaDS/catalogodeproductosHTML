@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amoblamientos y Arte</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/logo.jpg">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,17 +14,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="titulo">
-            <a class= "titulo" href="../index.html">
-            <img src="../images/logo.jpg" alt="Logo amoblamientos y arte" class="Logo">
-            <h1>Amoblamientos y Arte</h1>
+            <a class="titulo" href="../index.html">
+                <img src="../images/logo.jpg" alt="Logo amoblamientos y arte" class="Logo">
+                <h1>Amoblamientos y Arte</h1>
             </a>
         </div>
         <nav class="nav">
@@ -40,41 +43,48 @@
         <div class="paginaProducto">
 
             <div class="InfoProducto">
-                <img src="../images/mesaDeLuzEstiloPraga.jpg" alt="Sambia TV" class="imgproducto">
+                <div class="w3-content w3-display-container">
+                    <img src="../images/mesaDeLuzEstiloPraga.jpg" alt="Sambia TV" class="imgproducto mySlides fade">
+                    <img src="../images/mesaDeLuzEstiloPraga1.jpg" alt="Sambia TV" class="imgproducto mySlides fade">
+                    <img src="../images/mesaDeLuzEstiloPraga2.jpg" alt="Sambia TV" class="imgproducto mySlides fade">
+                    <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="next" onclick="plusDivs(1)">&#10095;</button>
+                </div>
                 <div class="descripcion">
-                <h1 class="tituloProducto">MESA DE LUZ ESTILO PRAGA</h1>
+                    <h1 class="tituloProducto">MESA DE LUZ ESTILO PRAGA</h1>
                     <p>/ MADERA: Eucaliptus </p>
                     <p>/ TERMINACIÓN: Lustre mate o brillante</p>
                     <p>/ CARACTERÍSTICAS: Mesa de luz doble cajón sin tiradores</p>
                     <p>/ VARIANTE: Estructura negra, blanca o natural</p>
                     <p>/ TIEMPO DE FABRICACIÓN: 2 días</p>
-                <table class="table">
-                <tr>
-                    <th class="back" rowspan="2">MODELO</th>
-                    <th class="back" colspan="3">MEDIDAS</th>
-                    <th class="back" rowspan="2">VALOR</th>
-                </tr>
-                <tr>
-                    <th>Largo</th>
-                    <th>Profundidad</th>
-                    <th>Alto</th>
-                </tr>
-                <tr>
-                    <th>Unico</th>
-                    <th>0,4m</th>
-                    <th>0,5m</th>
-                    <th>0,65m</th>
-                    <th class="backp" >$14.200</th>
-                </tr>
-            </table>
-        </div>
+                    <table class="table">
+                        <tr>
+                            <th class="back" rowspan="2">MODELO</th>
+                            <th class="back" colspan="3">MEDIDAS</th>
+                            <th class="back" rowspan="2">VALOR</th>
+                        </tr>
+                        <tr>
+                            <th>Largo</th>
+                            <th>Profundidad</th>
+                            <th>Alto</th>
+                        </tr>
+                        <tr>
+                            <th>Unico</th>
+                            <th>0,4m</th>
+                            <th>0,5m</th>
+                            <th>0,65m</th>
+                            <th class="backp">$14.200</th>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            
+
         </div>
     </section>
     <footer>
         <p class="footers">- Amoblamientos y Arte - 2021</p>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

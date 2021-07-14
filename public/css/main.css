@@ -108,19 +108,19 @@ a:-webkit-any-link {
   justify-content: center;
 }
 #cardMesasT {
-  background-image: url("../images/mesaDeTrabajo.jpg");
+  background-image: url("../images/mesaDeTrabajoMovilCategoria.jpg");
   justify-content: center;
 }
 #cardMesasR {
-  background-image: url("../images/mesaratona (3).jpg");
+  background-image: url("../images/mesaRatonaPortadaCategoria.jpg");
   justify-content: center;
 }
 #cardEscritorios {
-  background-image: url("../images/escritorioEstiloBeirut.jpg");
+  background-image: url("../images/EstiloBeirutCategoria.jpeg");
   justify-content: center;
 }
 #cardMaceteros{
-  background-image: url("../images/maceteroEstiloColumbia.jpg");
+  background-image: url("../images/MaceteroEstiloColumbiaPortada.jpg");
   justify-content: center;
 }
 #cardMesas {
@@ -136,7 +136,7 @@ a:-webkit-any-link {
   justify-content: center;
 }
 #cardVarios {
-  background-image: url("../images/DesayunadorEstiloMarcopolo.jpg");
+  background-image: url("../images/DesayunadorEstiloMarcopoloCategoria.jpg");
   justify-content: center;
 }
 
@@ -164,6 +164,7 @@ a:-webkit-any-link {
   margin: 0px;
   padding: 6% 1%;
   background-color: black;
+  opacity: 0.7;
 }
 
 /*--------------PRODUCTOS------------*/
@@ -243,7 +244,7 @@ p {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 85%;
+  top: 70%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -259,7 +260,7 @@ p {
 
 /* Position the "next button" to the right */
 .next {
-  right: 50%;
+  right: 48%;
   border-radius: 8px;
 }
 
